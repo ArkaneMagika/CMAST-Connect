@@ -5,7 +5,8 @@ var PostSchema = new Schema({
     _postID:{
         type:Number,
         require:true,
-        default:0
+        default:0,
+        index:true
     },
     title:{
         type:String,
@@ -16,9 +17,15 @@ var PostSchema = new Schema({
         required:"Please enter the name of the author",
         default:"Admin"
     },
+    body:{
+        type: String,
+    },
     date_Creates:{
         type:Date,
         default:Date.now
+    },
+    image:{
+        type: String,
     }
 })
 
