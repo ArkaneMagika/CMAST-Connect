@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-var home = require('./js_compiled/routes/routes')
+var home = require('./src/api/routes/routes')
 
 const express = require('express'),
 app = express(),
