@@ -1,0 +1,43 @@
+{
+  "name": "cmast-connect",
+  "version": "1.0.0",
+  "description": "A RESTful Web API for the CMAST Office",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkaneMagika/CMAST-Connect.git"
+  },
+  "keywords": [
+    "cmast",
+    "connect",
+    "web",
+    "api"
+  ],
+  "author": "Akane Simpson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArkaneMagika/CMAST-Connect/issues"
+  },
+  "homepage": "https://github.com/ArkaneMagika/CMAST-Connect#readme",
+  "dependencies": {
+    "async": "*",
+    "body-parser": "*",
+    "dotenv": "*",
+    "dropbox": "*",
+    "express": "*",
+    "fetch": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "node-uuid-v4": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*",
+    "sync-request": "*",
+    "sync-request-proxy": "*",
+    "morgan": "*"
+  }
+}
