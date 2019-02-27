@@ -1,36 +1,34 @@
+"use strict";
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-
 var PostSchema = new Schema({
-    _postID:{
-        type:Number,
-        require:true,
-        default:0,
-        index:true
+    _postID: {
+        type: Number,
+        require: true,
+        default: 0,
+        index: true
     },
-    title:{
-        type:String,
-        required:"Please enter a suitable title"
+    title: {
+        type: String,
+        required: "Please enter a suitable title"
     },
-    author:{
-        type:String,
-        required:"Please enter the name of the author",
-        default:"Admin"
+    author: {
+        type: String,
+        required: "Please enter the name of the author",
+        default: "Admin"
     },
-    body:{
+    body: {
         type: String,
     },
-    date_Creates:{
-        type:Date,
-        default:Date.now
+    date_Creates: {
+        type: Date,
+        default: Date.now
     },
-    image:{
+    image: {
         type: String,
     }
-})
-
+});
 module.exports = mongoose.model('Posts', PostSchema);
-
 //Requires pre middleware and another entity model
 // PostSchema.pre('save', function(next){
 //     if(this.isNew){

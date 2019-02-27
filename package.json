@@ -30,6 +30,7 @@
     "dropbox": "*",
     "express": "*",
     "fetch": "*",
+    "grunt": "^1.0.3",
     "jsonwebtoken": "*",
     "mongoose": "*",
     "node-uuid-v4": "*"
