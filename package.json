@@ -1,8 +1,8 @@
 {
   "name": "cmast-connect",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "A RESTful Web API for the CMAST Office",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
@@ -26,6 +26,7 @@
   "dependencies": {
     "async": "*",
     "body-parser": "*",
+    "cors": "^2.8.5",
     "dotenv": "*",
     "dropbox": "*",
     "express": "*",

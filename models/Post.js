@@ -20,7 +20,7 @@ var PostSchema = new Schema({
     body: {
         type: String,
     },
-    date_Creates: {
+    date_Created        : {
         type: Date,
         default: Date.now
     },
