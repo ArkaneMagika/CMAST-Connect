@@ -6,8 +6,8 @@
     "install:admin": "cd ./admin && npm install;",
     "install:portal": " cd ./portal && npm install",
     "start:portal": "cd portal && ng serve;",
-    "start:admin":"cd admin && npm start dev",
-    "start":"npm start:admin && npm start:portal;"
+    "start:admin": "cd admin && npm start dev",
+    "start": "npm start:admin && npm start:portal;"
   },
   "repository": {
     "type": "git",
