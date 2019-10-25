@@ -1,8 +1,2 @@
 cmast-connect.code-workspace
-node_modules/
-.env
-Project Objectives.md
-
-ts_files/
-temp_data_store/
-src/admin_panel
+.vscode/*
