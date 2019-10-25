@@ -1,0 +1,5 @@
+.footer-bar{
+    background: hex(#000000);
+    column-width: 3;
+    column-count: 4;
+}

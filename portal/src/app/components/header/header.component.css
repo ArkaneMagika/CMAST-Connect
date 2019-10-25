@@ -1,0 +1,24 @@
+span{
+    padding: 1em;
+}
+
+div.nav-bar{
+    background: #FFC219;
+    padding: 1em;
+    border: 1px;
+    border-radius: 4px;
+    width: 100%;
+    grid: auto-flow;
+}
+
+a.links{
+    color: #FFFFFF;
+    text-shadow: #000000 1px 1px;
+    text-decoration-line: none;
+    text-decoration-color: #FFFFFF;
+    font-size: 2rem;
+}
+a.links:hover{
+    color: #D22040;
+    text-shadow: slategrey 2px 2px;
+}

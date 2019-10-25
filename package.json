@@ -1,11 +1,13 @@
 {
-  "name": "cmast-connect",
+  "name": "cmast-connect-application",
   "version": "1.5.0",
   "description": "A RESTful Web API for the CMAST Office",
-  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "install:admin": "cd ./admin && npm install;",
+    "install:portal": " cd ./portal && npm install",
+    "start:portal": "cd portal && ng serve;",
+    "start:admin":"cd admin && npm start dev",
+    "start":"npm start:admin && npm start:portal;"
   },
   "repository": {
     "type": "git",
@@ -22,24 +24,5 @@
   "bugs": {
     "url": "https://github.com/ArkaneMagika/CMAST-Connect/issues"
   },
-  "homepage": "https://github.com/ArkaneMagika/CMAST-Connect#readme",
-  "dependencies": {
-    "async": "*",
-    "body-parser": "*",
-    "cors": "^2.8.5",
-    "dotenv": "*",
-    "dropbox": "*",
-    "express": "*",
-    "fetch": "*",
-    "grunt": "^1.0.4",
-    "jsonwebtoken": "*",
-    "mongoose": "*",
-    "node-uuid-v4": "*"
-  },
-  "devDependencies": {
-    "nodemon": "*",
-    "sync-request": "*",
-    "sync-request-proxy": "*",
-    "morgan": "*"
-  }
+  "homepage": "https://github.com/ArkaneMagika/CMAST-Connect#readme"
 }
