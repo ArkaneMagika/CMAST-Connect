@@ -9,13 +9,13 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AppComponent } from './app.component';
-import { BlogComponent } from './components/blog/blog.component';
-import { CommentComponent } from './components/comment/comment.component';
+import { EventsComponent } from './components/events/events.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { PhotoGalleryComponent } from './components/photo-gallery/photo-gallery.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { PageViewComponent } from './components/page-view/page-view.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +23,13 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    BlogComponent,
-    CommentComponent,
     PostsComponent,
     PhotoGalleryComponent,
     AboutUsComponent,
     ContactUsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    EventsComponent,
+    PageViewComponent
   ],
   imports: [
     BrowserModule,

@@ -1,16 +1,7 @@
 span{
-    padding: 1em;
-}
-
-div.nav-bar{
-    background: #FFC219;
-    padding: 1em;
-    border: 1px;
-    border-radius: 4px;
     width: 100%;
-    grid: auto-flow;
+    padding: 2rem;
 }
-
 a.links{
     color: #FFFFFF;
     text-shadow: #000000 1px 1px;
@@ -18,7 +9,25 @@ a.links{
     text-decoration-color: #FFFFFF;
     font-size: 2rem;
 }
-a.links:hover{
+a.links:hover, a.links:active{
     color: #D22040;
     text-shadow: slategrey 2px 2px;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+}
+
+nav.nav-bar{
+    background: #FFC219;
+    padding: 1em;
+    border: 1px;
+    border-radius: 4px;
+    width: auto;
+    grid: auto-flow;
+}
+
+@media only screen and (min-width: 768px){
+
 }

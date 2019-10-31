@@ -1,16 +1,12 @@
-<div class="nav-bar">
-    <a class="links" [routerLink]="['']">CMAST Connect</a>
-    <span></span>
+<header>
+    <nav class="nav-bar">
+        <span>
+            <a class="links" [routerLink]="['']">CMAST Connect</a>
+        </span>
 
-    <a class="links" [routerLink]="['/post']">Posts</a>
-    <span></span>
-
-    <a class="links" [routerLink]="['/blog']">Blog</a>
-    <span></span>
-
-    <a class="links" [routerLink]="['/about-us']">About Us</a>
-    <span></span>
-
-    <a class="links" [routerLink]="['/contact-us']">Contact Us</a>
-    <span></span>
-</div>
+        <ul>
+            <li> <a class="links" [routerLink]="['/post']">Posts</a> </li>
+            <li> <a class="links" [routerLink]="['/events']">Events & Activities</a> </li>
+        </ul>
+    </nav>
+</header>

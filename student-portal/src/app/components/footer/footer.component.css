@@ -1,5 +1,21 @@
-.footer-bar{
-    background: hex(#000000);
-    column-width: 3;
-    column-count: 4;
+footer{
+    height: 100%;
+    position: bottom;
+    display: block;
+    background: #000000;
+    padding: 2em;
+    color: #FFFFFF;
+    /* column-width: 6; */
+    column-count: 2;
+}
+
+li{
+    list-style: none;
+    vertical-align: sub;
+    text-align: right;
+}
+
+a{
+    text-decoration-style: none;
+    color: #FFFFFF;
 }
